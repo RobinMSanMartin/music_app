@@ -1,6 +1,6 @@
 import './PlayListHeader.css';
-import {PlayListImage} from './PlayListImage/PlayListImage';
-import {PlayListTittle} from './PlayListTittle/PlayListTittle';
+import { PlayListImage } from './PlayListImage/PlayListImage';
+import { PlayListTitle } from './PlayListTitle/PlayListTitle';
 
 export const PlayListHeader = ({ title, imageUrl }) => {
   return (
@@ -9,12 +9,12 @@ export const PlayListHeader = ({ title, imageUrl }) => {
         <PlayListImage imageUrl={imageUrl} />
         {/* Título solo visible dentro de imagen en mobile */}
         <div className="mobile-title">
-          <PlayListTittle title={title} />
+          <PlayListTitle title={title} />
         </div>
       </div>
       {/* Título visible al lado en desktop */}
       <div className="desktop-title">
-        <PlayListTittle title={title} />
+        <PlayListTitle title={title} />
       </div>
     </div>
   );
