@@ -1,0 +1,42 @@
+.playlist-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.playlist-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.mobile-title {
+  display: block;
+}
+
+.desktop-title {
+  display: none;
+}
+
+/* 🌐 Desktop */
+@media (min-width: 768px) {
+  .playlist-header-container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem 3rem;
+  }
+
+  .playlist-image-wrapper {
+    max-width: 250px;
+  }
+
+  .mobile-title {
+    display: none;
+  }
+
+  .desktop-title {
+    display: block;
+  }
+}
