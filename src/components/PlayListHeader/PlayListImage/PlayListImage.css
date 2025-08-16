@@ -1,0 +1,17 @@
+.playlist-image-container {
+  width: 100%;
+}
+
+.playlist-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* 🌐 Desktop */
+@media (min-width: 768px) {
+  .playlist-image {
+    border-radius: 12px;
+  }
+}

@@ -1,0 +1,32 @@
+.playlist-title-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  box-sizing: border-box;
+}
+
+.playlist-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+/* 🌐 Desktop */
+@media (min-width: 768px) {
+  .playlist-title-container {
+    position: static;
+    background: none;
+    padding: 0;
+  }
+
+  .playlist-title {
+    font-size: 3rem;
+    color: #222;
+    text-align: left;
+  }
+}
