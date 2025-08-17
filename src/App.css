@@ -27,3 +27,24 @@
   padding: 2rem 1rem;
   background-color: var(--color-body-bg);
 }
+
+.playlist-actions {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.playlist-btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #8e3abe;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.playlist-btn:hover {
+  background-color: #732fa0;
+}
