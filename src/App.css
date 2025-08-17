@@ -1,0 +1,29 @@
+:root {
+  --color-accent: #8e3abe;
+  --color-header-bg: #6c2c94;
+  --color-body-bg: #ad82ec;
+  --color-text-light: #ffffff;
+  --color-text-dark: #2e2e2e;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-body-bg);
+  color: var(--color-text-dark);
+  font-family: 'Inter', sans-serif;
+}
+
+.app-header {
+  background-color: var(--color-header-bg);
+  padding: 2rem 1rem;
+  color: var(--color-text-light);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.app-body {
+  flex: 1;
+  padding: 2rem 1rem;
+  background-color: var(--color-body-bg);
+}

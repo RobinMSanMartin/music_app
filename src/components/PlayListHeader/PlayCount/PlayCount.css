@@ -3,7 +3,7 @@
   gap: 0.5rem;
   align-items: center;
   font-size: 0.95rem;
-  color: #444;
+  color: #868686;
   margin-top: 0.4rem;
 }
 
@@ -13,5 +13,5 @@
 
 .play-count-number {
   font-weight: bold;
-  color: #111;
+  color: #ffffff;
 }
