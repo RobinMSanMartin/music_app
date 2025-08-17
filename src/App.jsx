@@ -2,6 +2,7 @@ import "./App.css";
 import { PlayListHeader } from "./components/PlayListHeader/PlayListHeader";
 import { PlayButton } from "./components/Buttons/PlayButton";
 import { ShuffleButton } from "./components/Buttons/ShuffleButton";
+import { FollowButton } from "./components/Buttons/FollowButton";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           <PlayButton/>
           <br></br>
           <ShuffleButton/>
+          <br></br>
+          <FollowButton/>
         </main>
       </div>
     </>
