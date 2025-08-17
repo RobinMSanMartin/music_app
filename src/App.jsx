@@ -1,6 +1,7 @@
 import "./App.css";
 import { PlayListHeader } from "./components/PlayListHeader/PlayListHeader";
 import { PlayButton } from "./components/Buttons/PlayButton";
+import { ShuffleButton } from "./components/Buttons/ShuffleButton";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         </header>
         <main className="app-body">
           {/* Aquí irán las canciones, controles, etc. */}
-          
+          <PlayButton/>
+          <br></br>
+          <ShuffleButton/>
         </main>
       </div>
     </>
